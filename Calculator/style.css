@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dhurjati&family=Oswald&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,200;1,400&family=Sevillana&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins'sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(45deg,#0a0a0a,#3a4452);
+}
+.calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
+}
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background-color: #707275;
+    box-shadow: 0px 3px 15px rgba(219, 183, 183, 0.5);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+}
+input::placeholder{
+    color: #ffffff;
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    box-shadow: -5px -5px 5px rgba(241, 154, 154, 0.1);
+    font-size: 20px;
+    cursor: pointer;
+}
+.equBtn{
+    background-color: #fb7c14;
+}
+.operator{
+    color: #fb7c14;
+}
+.calculator .add{
+    color: #9e9b9b;
+}
+.calculator .add .cas{
+    display: flex;
+    justify-content: space-between;
+}
+.calculator .add .name{
+    text-align: center;
+}
+.calculator .add .edi{
+    text-align: right;
+}
+button:hover{
+    visibility: visible;
+    
+}
