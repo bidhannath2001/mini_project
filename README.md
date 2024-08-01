@@ -1,0 +1,1 @@
+Welcome to the Mini Project Repository! This collection includes several small web projects built using HTML, CSS, and JavaScript. These projects are designed to demonstrate basic functionality and provide hands-on experience with fundamental web technologies.
